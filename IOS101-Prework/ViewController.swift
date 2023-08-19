@@ -11,8 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        HollandLopView.isHidden = true
+        
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var HollandLopView: UIImageView!
+    
 
 
     @IBAction func changeBackgroundColor(_ sender: UIButton) {
@@ -26,6 +30,9 @@ class ViewController: UIViewController {
         let blue = CGFloat.random(in: 0...1)
 
         return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
+    }
+    @IBAction func seeHollandLopPicture(_ sender: UIButton) {
+        HollandLopView.isHidden = false
     }
 }
 

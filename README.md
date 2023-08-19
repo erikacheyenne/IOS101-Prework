@@ -2,9 +2,10 @@
 
 Submitted by: **Erika Porras Gutierrez**
 
-**Name of your app** is an app that... [TODO] 
+**IOS Color Randomizer** is an app that randomizes the color of the background when the user clicks a button. It also allows you to click a button
+and view a Holland Lop Bunny.
 
-Time spent: **TODO** hours spent in total
+Time spent: **1** hours spent in total
 
 ## Required Features
 
@@ -16,6 +17,9 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
+
+<img src='https://i.imgur.com/qIjVnC5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
